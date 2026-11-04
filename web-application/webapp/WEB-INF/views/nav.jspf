@@ -1,0 +1,2 @@
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
+<nav><a href="courses">Courses</a> | <c:out value="${sessionScope.user}"/> (<c:out value="${sessionScope.role}"/>) | <a href="login?action=out">Logout</a></nav>
