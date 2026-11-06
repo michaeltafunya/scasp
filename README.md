@@ -13,6 +13,9 @@ Compiles the JDK-only modules and runs 50 automated checks for Stages 1, 2, 3, 5
     java -cp out scasp.rmi.AdminClient                         # RMI client
     nc localhost 9090   then type: PING, COURSES, REGISTER S1 CS101, WITHDRAW S1 CS101, REPORT, QUIT
 
+### Windows PowerShell
+From the project directory, run `.\run.cmd`. It compiles the JDK-only modules and starts the TCP gateway on port 9090. Press Ctrl+C to stop it. In a second PowerShell window, run `.\client.cmd` to send commands such as PING, COURSES, REGISTER S1 CS101, REPORT, and QUIT.
+
 ## Modules
 | Folder | Stage | Status |
 |---|---|---|
